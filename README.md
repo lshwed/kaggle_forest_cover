@@ -2,7 +2,7 @@
 Kaggle competition predicting forest cover type.
 
 ## My Pipeline
-The dataset was complete, there were no missing values. The Wilderness Area and Soil Type features were already one-hot encoded. After some intial EDA I began modelling and doing a bit of hyperparameter tuning. 
+The dataset was complete, there were no missing values. The Wilderness Area and Soil Type features were already one-hot encoded. After exploring the data I began modelling and doing a bit of hyperparameter tuning. 
 
 The best performing models were random forest, XGBClassifier and extra tree classifier (extremely random trees). An ensemble of all three models did not improve accuracy. I settled on the extra tree classifier as it was superior to all the other models I tested. To further enhance performance, I created higher order features and found that second degree features slightly improved accuracy.
 
